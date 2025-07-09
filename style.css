@@ -1,8 +1,12 @@
 body {
-  background-color: #929487;
+  background-color: #929487 !important;
   color: white;
   margin: 0;
   padding: 0;
+}
+
+html, body {
+  background-color: #929487 !important;
 }
 
 .sidebar {
