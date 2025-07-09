@@ -1,4 +1,12 @@
-html {
-  height: 100%;
-  width: 100%;
+body {
+  background-color: #929487
+  color: white;
+  margin: 0;
+  padding: 0;
+}
+
+.sidebar {
+  background-color: transparent;
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
