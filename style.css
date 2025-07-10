@@ -126,7 +126,3 @@ html, body {
   display: flex;
   align-items: stretch;
 }
-
-.form-control me-2 {
-  width: 30%;
-}
