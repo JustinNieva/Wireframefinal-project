@@ -28,61 +28,6 @@ html, body {
 
 .custom-navbar {
   background-color: #564946;
-  padding: 0.5rem 0;
-}
-
-.navbar-brand {
-  color: white !important;
-}
-
-.navbar-nav .nav-link {
-  color: #A1B0AB !important;
-  font-weight: 500;
-}
-
-.navbar-nav .nav-link:hover {
-  color: white !important;
-}
-
-.navbar-nav .nav-link.active {
-  color: white !important;
-}
-
-.form-control {
-  background-color: #D3D3D3;
-  border: none;
-  color: #564946;
-  width: 300px;
-  border-radius: 0.375rem;
-}
-
-.form-control:focus {
-  background-color: #D3D3D3;
-  border-color: #A1B0AB;
-  box-shadow: 0 0 0 0.2rem rgba(161, 176, 171, 0.25);
-  color: #564946;
-}
-
-.form-control::placeholder {
-  color: #A1B0AB;
-}
-
-.btn-outline-success {
-  color: #A1B0AB;
-  border-color: #A1B0AB;
-  background-color: transparent;
-}
-
-.btn-outline-success:hover {
-  background-color: #A1B0AB;
-  border-color: #A1B0AB;
-  color: #564946;
-}
-
-.logo-img {
-  height: 50px;
-  width: auto;
-  max-height: 50px;
 }
 
 .sidebar {
