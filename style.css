@@ -1,21 +1,11 @@
-body {
-  background-color: #929487 !important;
-  color: white;
-  margin: 0;
-  padding: 0;
-}
-
-body {
-  font-family: 'Katibeth', regular;
-  font-size: 20px;
-}
-
 html, body {
   background-color: #929487 !important;
+  color: white;
   height: 100vh;
   margin: 0;
   padding: 0;
   font-family: 'Poppins', sans-serif;
+  font-size: 20px;
   display: flex;
   flex-direction: column;
   overflow-x: hidden;
@@ -32,6 +22,8 @@ html, body {
   margin: 0;
   max-width: 100%;
   width: 100%;
+  display: flex;
+  flex-direction: column;
 }
 
 .custom-navbar {
@@ -130,6 +122,9 @@ html, body {
 .row {
   margin: 0;
   padding: 0;
+  flex: 1;
+  display: flex;
+  align-items: stretch;
 }
 
 .form-control me-2 {
