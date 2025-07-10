@@ -5,21 +5,48 @@ body {
   padding: 0;
 }
 
+body {
+  font-family: 'Katibeth', regular;
+  font-size: 20px;
+}
+
 html, body {
   background-color: #929487 !important;
+  height: 100%;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+  display: flex;
+  flex-direction: column;
+}
+
+.main-content {
+  flex: 1;
+  padding: 2rem;
+}
+
+.container-fluid {
+  flex: 1;
+}
+
+.custom-navbar {
+  background-color: #564946;
 }
 
 .sidebar {
   background-color: transparent;
   padding-top: 1rem;
   padding-bottom: 1rem;
+  border-left: 4px solid #564946;
+  border-right: 4px solid #564946;
 }
 
 .category-btn {
-  margin: 0.5rem;
+  margin: 0.8rem;
   background-color: #D3D3D3;
   border: none;
   color: #A1B0AB;
+  font-weight: bold;
 }
 
 .category-btn:hover {
@@ -33,7 +60,7 @@ html, body {
   padding: 1rem;
   margin-bottom: 1rem;
   text-align: center;
-  border-radius: 0.25rem;
+  border-radius: 0.7rem;
   font-weight: bold;
   font-size: 1.2rem;
   width: 100%;
@@ -52,7 +79,7 @@ html, body {
   width: 100%;
   text-align: left;
   padding: 0.5rem;
-  border-radius: 0.25rem;
+  border-radius: 0.7rem;
   border: none;
 }
 
@@ -61,11 +88,17 @@ html, body {
   cursor: pointer;
 }
 
+.footer {
+  background-color: #564946;
+  padding: 1.5rem;
+  width: 100%;
+}
+
 .footer-btn {
   color: #A1B0AB;
   border: none;
-  width: 40%;
-  font-size: 20px;
+  width: 34%;
+  font-size: 23px;
   padding: 0.5rem;
 }
 
@@ -76,4 +109,18 @@ html, body {
 .logo-img {
   height: 70px;
   width: auto;
+}
+
+.sidebar p {
+  writing-mode: vertical-rl;
+  text-orientation: mixed;
+  transform: rotate(180deg);
+  font-size: 1.5rem;
+  margin: 0;
+  padding: 0;
+  display: flex;
+}
+
+.form-control me-2 {
+  width: 30%;
 }
