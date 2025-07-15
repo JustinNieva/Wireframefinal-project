@@ -119,3 +119,14 @@ html, body {
   display: flex;
   align-items: stretch;
 }
+
+.btn-outline-success {
+  background: #564946;
+  color: #A1B0AB;
+  border: 1.5px solid #A1B0AB;
+}
+
+.btn-outline-success:hover {
+  background-color: #A1B0AB;
+  cursor: pointer;
+}
