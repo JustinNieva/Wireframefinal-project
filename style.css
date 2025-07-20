@@ -130,3 +130,71 @@ html, body {
   background-color: #A1B0AB;
   cursor: pointer;
 }
+
+.profile-pic {
+  width: 550px;
+  height: 350px;
+  justify-content: center;
+}
+
+.about-text {
+  font-size: 18px;
+ background-color: #b3aeae;
+  color: #434645;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  font-size: 1.2rem;
+  width: 100%;
+}
+
+.intro-title {
+  color: #434645
+}
+
+.header-aboutme {
+  color: #434645;
+  text-align: center;
+  padding: 1rem;
+  margin-bottom: 1rem;
+  text-align: center;
+  border-radius: 0.7rem;
+  font-weight: bold;
+  font-size: 2.5rem;
+  width: 100%;
+}
+
+.journey-img {
+  width: 100%;
+  height: auto;
+  object-position: cover;
+  border-radius: 0.5rem;
+  border: 3px solid #D3D3D3;
+  max-height: 250px;
+}
+
+.journey.card {
+  margin-bottom: 2rem;
+}
+
+.journey.card {
+  margin-bottom: 2rem;
+}
+
+.step-label {
+  font-weight: bold;
+  color: #A1B0AB;
+  text-transform: uppercase;
+  margin-bottom: 0.5rem;
+  letter-spacing: 1px;
+}
+
+.custom-dropdown {
+  background: #2c2c2c;
+  border: 1px solid #434;
+  border-radius: 8px;
+  padding: 10px;
+  min-width: 180px;
+}
